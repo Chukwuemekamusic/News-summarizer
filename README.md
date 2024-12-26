@@ -20,8 +20,8 @@ A Python-based application to fetch and summarize news articles on any topic usi
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Chukwuemekamusic/News-summarizer
+   cd News-summarizer
    ```
 
 2. Install dependencies:
@@ -32,7 +32,7 @@ A Python-based application to fetch and summarize news articles on any topic usi
 3. Set up environment variables:
    Create a `.env` file in the root directory with the following:
    ```env
-   NEWS_API_KEY=your_news_api_key
+   NEWS_API_KEY=your_news_api_key 
    OPENAI_API_KEY=your_openai_api_key
    ```
 
@@ -40,7 +40,7 @@ A Python-based application to fetch and summarize news articles on any topic usi
 
 1. Run the Streamlit app:
    ```bash
-   streamlit run <script_name>.py
+   streamlit run main.py
    ```
 
 2. Open the app in your browser and input a topic to summarize news articles.
